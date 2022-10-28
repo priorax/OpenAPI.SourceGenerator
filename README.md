@@ -32,7 +32,7 @@ _Hypothetically_ this should code gen:
  - A strongly typed client based on a the input.
  - All models will be placed in the `OpenAPI.SourceGenerator.Examples` namespace.
 
-An example of the files generated can be found in [the example project generated files directory](ExampleUsage\generated\sampleOutput\OpenAPI.SourceGenerator).
+An example of the files generated can be found in [the example project generated files directory](ExampleUsage/generated/sampleOutput/OpenAPI.SourceGenerator).
 
 ## Currently untested features:
   - GET endpoints
@@ -46,6 +46,7 @@ An example of the files generated can be found in [the example project generated
  - Find some way to handle naming of functions/properties to be more in line with C# standards.
  - Maybe allow some way for users to override 
  - CI
+ - Allow models to be either classes or records
  - Fix complier warnings.
  - Ensure if this breaks, so does things that depend on it.
  - Find some way of dealing with incomplete OpenApi docs.
