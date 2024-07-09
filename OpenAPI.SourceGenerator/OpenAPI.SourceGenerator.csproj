@@ -17,7 +17,7 @@
 		<PackageReference Include="Microsoft.OpenApi.Readers" PrivateAssets="all" GeneratePathProperty="true" Version="1.4.1" />
 		<PackageReference Include="Microsoft.OpenApi" PrivateAssets="all" GeneratePathProperty="true" Version="1.4.2" />
 		<PackageReference Include="SharpYaml" PrivateAssets="all" GeneratePathProperty="true" Version="2.1.0" />
-		<PackageReference Include="System.Text.Json" Version="6.0.6" PrivateAssets="all" GeneratePathProperty="true" />
+		<PackageReference Include="System.Text.Json" Version="8.0.4" PrivateAssets="all" GeneratePathProperty="true" />
 
 		<!-- <None Include="$(OutputPath)\$(AssemblyName).dll" GeneratePathProperty="true" PrivateAssets="all" /> -->
 	</ItemGroup>
